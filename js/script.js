@@ -124,3 +124,47 @@ function deleteSymb(str, symb) {
 	}
 	return (p1 + p2);
 }
+
+//==================
+//CALCULATE RESULT
+//==================
+var text = document.getElementById('out');
+btnGet.onclick = function(){
+	text.innerHTML = 'Starting...'
+	if (rg) {
+		text.innerHTML = 'Starting...'
+		text.innerHTML = text.innerHTML + '\<br\>' + 'Start'
+		var t1 = new Date();
+		var arr = [];
+		var arrayNumb = [];
+
+		range = +corrNumber(range);
+		for (var i = 2; i < range; i++) {
+		  arr[i] = true
+		}
+		var p = 2;
+		do {
+		  for (i = 2 * p; i < range; i += p) {
+		    arr[i] = false;
+		  }
+		  for (i = p + 1; i < range; i++) {
+		    if (arr[i]) break;
+		  }
+		  p = i;
+		} while (p * p < range); 
+		var sum = 0;
+		for (i = 0; i < arr.length; i++) {
+		  if (arr[i]) {
+		    arrayNumb.push(i);
+		    text.innerHTML = text.innerHTML + ', ' + i
+		  }
+		}
+		var t2 = new Date();
+		var t3 = t2 - t1;
+		text.innerHTML = text.innerHTML + '\<br\> Time: ' + t3 + ' mls'
+		text.innerHTML = text.innerHTML + '\<br\>' + 'END'
+	} else {
+		text.innerHTML = text.innerHTML + '\<br\>' + 'Starting failed'
+	}
+	
+}

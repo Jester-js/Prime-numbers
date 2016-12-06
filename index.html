@@ -3,18 +3,33 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
-	<title>PRIME NUMBER</title>
-	<link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,700' rel='stylesheet' type='text/css'>
+	<title>Prime numbers</title>
+	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<div class="wrap">
-		<div id="label-form" class="label-for-range">Enter your range:</div>
-		<div id="range" class="range" contenteditable></div>
-		<div id="get" class="get-prime-numbers neutral">get prime numbers</div>
-		<div id="out" class="starting"></div>
+		<h1>Search prime numbers</h1>
+		<h2>Enter your limit number:</h2>
+		<input type="text" id="limit" class="neutral">
+		<button id="get" class="neutral">get prime numbers</button>
+		<div id="out" class="results">
+			<!-- <p class="status good">Started.</p>
+			<p class="numbers">
+				<span>1</span>
+			</p>
+			<p class="status good">Finished.</p>
+			<p class="time">Total time - <span class="count">24</span> ms.</p>
+			<p class="status bad">Failed.</p> -->
+		</div>
+	</div>
+	<div id="messages" class="messages">
+		<div class="warning">
+			<p>Please, start enter your limit</p>
+		</div>
 	</div>
 <!-- ADD SCRIPT -->
-	<script src="js/script.js"></script>
+	<script src="js/validate.js"></script>
+	<script src="js/calc.js"></script>
 </body>
 </html>

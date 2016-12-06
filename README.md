@@ -4,7 +4,7 @@
 -----------------
 
 ## About:
-Search simple numbers based on algorithm called "Sieve of Eratosthenes".
+Search prime numbers based on algorithm called "Sieve of Eratosthenes".
 
 ------------------
 

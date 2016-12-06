@@ -1,17 +1,23 @@
-#PRIME NUMBER
-###with sieve of Eratosthenes
+# Prime numbers
+> Sieve of Eratosthenes
+
 -----------------
 
-###About:
-Пошук простих чисел, побудований на алгоритмі, що називається "Решето Ератосфена". 
+## About:
+Search simple numbers based on algorithm called "Sieve of Eratosthenes".
 
 ------------------
-###How to use:
-Просто введіть число, яке буде межею для пошуку. 
 
-#####P.S: Не рекомендую вводити дуже великі числа) 
+## How to use:
+Enter limit number and click on button "GET PRIME NUMBERS".
 
-###SCREENSHOTS:
+------------------
 
-![Good](https://raw.githubusercontent.com/jester-js/Prime-numbers/master/good.png)
-![Not a Good](https://raw.githubusercontent.com/jester-js/Prime-numbers/master/notgood.png)
+## P.S:
+Do not recommend to enter very big numbers.  
+
+------------------
+
+## Screenshots:
+![Good](https://raw.githubusercontent.com/jestersunborn/prime-numbers/master/img-readme/good.png)
+![Not good](https://raw.githubusercontent.com/jestersunborn/prime-numbers/master/img-readme/notgood.png)

@@ -19,5 +19,14 @@ Do not recommend to enter very big numbers.
 ------------------
 
 ## Screenshots:
-![Good](https://raw.githubusercontent.com/jestersunborn/prime-numbers/master/img-readme/good.png)
-![Not good](https://raw.githubusercontent.com/jestersunborn/prime-numbers/master/img-readme/notgood.png)
+### Start state:
+![Good](https://raw.githubusercontent.com/jestersunborn/prime-numbers/master/img-readme/normal.png)
+
+### Wrong input:
+![bad](https://raw.githubusercontent.com/jestersunborn/prime-numbers/master/img-readme/bad.png)
+
+### Good input:
+![good](https://raw.githubusercontent.com/jestersunborn/prime-numbers/master/img-readme/good.png)
+
+### Results:
+![results](https://raw.githubusercontent.com/jestersunborn/prime-numbers/master/img-readme/results.png)

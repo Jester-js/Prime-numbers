@@ -164,6 +164,7 @@ input {
 }
 
 .wrap .results p.numbers span {
+  display: inline-block;
   padding: 3px;
 }
 
@@ -175,7 +176,7 @@ input {
   color: #43E993;
 }
 
-.wrap .results p.status.bad {
+.wrap .results p.status.failed {
   color: #FF464A;
 }
 

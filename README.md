@@ -29,4 +29,4 @@ Do not recommend to enter very big numbers.
 ![good](https://raw.githubusercontent.com/jestersunborn/prime-numbers/master/img-readme/good.png)
 
 ### Results:
-![results](https://raw.githubusercontent.com/jestersunborn/prime-numbers/master/img-readme/results.png)
+![result](https://raw.githubusercontent.com/jestersunborn/prime-numbers/master/img-readme/result.png)
